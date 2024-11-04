@@ -9,7 +9,6 @@ Um aplicativo simples de gerenciamento de tarefas desenvolvido com Flutter. Este
 - **Editar Tarefas**: Permite que os usuários façam alterações nas tarefas existentes.
 - **Excluir Tarefas**: Usuários podem remover tarefas da lista.
 - **Lista de Tarefas**: Mostra todas as tarefas adicionadas em uma lista, com opções para edição e exclusão.
-- **Interface Intuitiva**: Uma interface amigável que facilita a navegação e o uso do aplicativo.
 
 ## Tecnologias Utilizadas
 
