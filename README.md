@@ -16,6 +16,9 @@ Um aplicativo simples de gerenciamento de tarefas desenvolvido com Flutter. Este
 - **Provider**: Gerenciamento de estado utilizado para manter e manipular a lista de tarefas.
 - **Material Design**: Componentes visuais que seguem as diretrizes do Material Design do Google.
 
+## Estrutura de Pastas
+lib/ ├── main.dart ├── models/ │ └── task.dart ├── providers/ │ └── task_provider.dart ├── screens/ │ ├── task_list_screen.dart │ ├── add_task_screen.dart │ └── edit_task_screen.dart └── widgets/ └── task_item.dart
+
 ## Como Executar o Projeto
 
 1. **Clone o repositório**:
