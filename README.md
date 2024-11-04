@@ -1,54 +1,48 @@
 
-# VoluntáRIO
+# Aplicativo de Lista de Tarefas
 
-## Descrição do Projeto
-O VoluntáRIO é um aplicativo que conecta voluntários, empresas e instituições para limpar o Rio Itajaí-Açu e prevenir cheias, oferecendo benefícios a quem participa, como descontos em empresas parceiras. O projeto surgiu durante um Hackathon na Unidavi e tem como objetivo aumentar a conscientização sobre a importância do rio e promover ações de limpeza e preservação ambiental.
+Um aplicativo simples de gerenciamento de tarefas desenvolvido com Flutter. Este projeto permite aos usuários adicionar, editar e excluir tarefas, proporcionando uma maneira fácil de organizar suas atividades diárias.
 
 ## Funcionalidades
-- Cadastro de usuários (PF e PJ) com verificação de e-mail único.
-- Tela de login com redirecionamento para a página de expedições após autenticação.
-- Gerenciamento de eventos e monitoramento de voluntários.
-- Geolocalização para eventos e atividades.
-- Catálogo de benefícios com descontos em empresas parceiras.
-- Fórum para interação entre usuários e troca de informações.
 
-## Estrutura do Projeto
-```
-src/
-│
-├── components/
-│   ├── Header/
-│   │   ├── index.js
-│   │   └── styles.js
-│
-├── pages/
-│   ├── home/
-│   │   ├── index.js
-│   │   └── styles.js
-│   ├── registerLogin/
-│   │   ├── index.js
-│   │   └── styles.js
-│   └── expeditions/
-│       ├── index.js
-│       └── styles.js
-│
-└── App.js
-```
+- **Adicionar Tarefas**: Os usuários podem adicionar novas tarefas com títulos e descrições.
+- **Editar Tarefas**: Permite que os usuários façam alterações nas tarefas existentes.
+- **Excluir Tarefas**: Usuários podem remover tarefas da lista.
+- **Lista de Tarefas**: Mostra todas as tarefas adicionadas em uma lista, com opções para edição e exclusão.
+- **Interface Intuitiva**: Uma interface amigável que facilita a navegação e o uso do aplicativo.
 
 ## Tecnologias Utilizadas
-- **Frontend**: React Native com Expo
-- **Gerenciamento de Estado**: Provider
-- **Banco de Dados**: PostgreSQL
-- **Navegação**: React Navigation
 
-## Como Contribuir
-1. Faça um fork do repositório.
-2. Crie uma branch para sua feature (`git checkout -b minha-feature`).
-3. Faça suas alterações e commit (`git commit -m 'Adicionando uma nova feature'`).
-4. Envie sua branch (`git push origin minha-feature`).
-5. Abra um Pull Request.
+- **Flutter**: Framework de desenvolvimento para criar interfaces nativas para iOS e Android.
+- **Provider**: Gerenciamento de estado utilizado para manter e manipular a lista de tarefas.
+- **Material Design**: Componentes visuais que seguem as diretrizes do Material Design do Google.
 
-## Contato
-Para mais informações ou sugestões, entre em contato com os desenvolvedores:
-- Rafael Batistti Munarin
-- Vitor Hugo Zonta
+## Como Executar o Projeto
+
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/seuusuario/nome-do-repositorio.git
+   ```
+
+2. **Acesse o diretório do projeto**:
+   ```bash
+   cd nome-do-repositorio
+   ```
+
+3. **Instale as dependências**:
+   ```bash
+   flutter pub get
+   ```
+
+4. **Execute o aplicativo**:
+   ```bash
+   flutter run
+   ```
+
+## Contribuição
+
+Contribuições são bem-vindas! Se você deseja contribuir para este projeto, por favor, faça um fork do repositório e envie um pull request.
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
