@@ -21,7 +21,7 @@ Um aplicativo simples de gerenciamento de tarefas desenvolvido com Flutter. Este
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seuusuario/nome-do-repositorio.git
+   git clone https://github.com/RafaelMunarin/App-Flutter.git
    ```
 
 2. **Acesse o diretório do projeto**:
@@ -38,11 +38,3 @@ Um aplicativo simples de gerenciamento de tarefas desenvolvido com Flutter. Este
    ```bash
    flutter run
    ```
-
-## Contribuição
-
-Contribuições são bem-vindas! Se você deseja contribuir para este projeto, por favor, faça um fork do repositório e envie um pull request.
-
-## Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
