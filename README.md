@@ -26,7 +26,7 @@ Um aplicativo simples de gerenciamento de tarefas desenvolvido com Flutter. Este
 
 2. **Acesse o diretório do projeto**:
    ```bash
-   cd nome-do-repositorio
+   cd App-Flutter
    ```
 
 3. **Instale as dependências**:
