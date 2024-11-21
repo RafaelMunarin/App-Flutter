@@ -43,6 +43,9 @@ lib/
    ```bash
    cd App-Flutter
    ```
+   ```bash
+   cd gerenciador_tarefas
+   ```
 
 3. **Instale as dependências**:
    ```bash
